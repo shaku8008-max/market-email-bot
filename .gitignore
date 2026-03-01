@@ -1,0 +1,14 @@
+# virtual env
+.venv/
+
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# outputs/logs (optional)
+outputs/
+logs/
+data/
