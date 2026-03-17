@@ -1,14 +1,17 @@
-# virtual env
+# Environment variables (SECRETS)
+.env
+
+# Python virtual environment
 .venv/
 
-# secrets
-
-
-# python
+# Python cache
 __pycache__/
 *.pyc
 
-# outputs/logs (optional)
+# Data + outputs (optional but recommended)
 outputs/
-logs/
-data/
+data/cache/
+data/raw/
+
+# OS junk
+.DS_Store
